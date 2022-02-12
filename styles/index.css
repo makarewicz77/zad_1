@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/dark-wood.jpg");
+    background-color: black;
+}
+
+br {
+    display: block;
+    margin: 50px 0 0 0;
+    content: " ";
+}
+
+p {
+    color: antiquewhite;
+    text-align: justify;
+}
+
+li {
+    color: antiquewhite;
+}
+
+img {
+    height: 100%;
+}
+
+
+/* ############################################################# */
+
+.navbar-background {
+    background-image: url("../images/header.jpg");
+    height: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.images {
+    float: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.my-list-group {
+    list-style: decimal inside;
+}
+
+.my-list-group-item {
+    display: list-item !important;
+    color: black;
+}
